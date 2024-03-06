@@ -10,7 +10,7 @@ export const ContentLayout = ({ children, title }: ContentLayoutProps) => {
   return (
     <>
       {/* <Head title={title} /> */}
-      <Box>
+      <Box sx={{backgroundColor:"gray"}}>
         <Box>
           <Typography variant="h4">{title}</Typography>
         </Box>

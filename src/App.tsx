@@ -1,9 +1,9 @@
-import { Navbar } from "./components/Elements"
+import { CreateChart } from "./features/Chart/components/CreateChart"
 
 const App = () => {
   return (
     <div>
-      <Navbar children/>
+      <CreateChart/>
     </div>
   )
 }
